@@ -21,7 +21,7 @@ function Home(){
             <span className="circle"></span>
             <span className="circle"></span>
           </div>
-          <img src='{img}' alt=''></img>
+          <img src='{ img }' alt=''></img>
         </div>
 
         <a href='#footer' className='scroll-down'>

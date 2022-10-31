@@ -3,20 +3,35 @@ import { faHome } from '@fortawesome/free-solid-svg-icons';
 import  Header from './components/header/header';
 import Nav from './components/nav/nav';
 import Home from './components/home/home';
-import About from './components/about/about'
+import About from './components/about/about';
+import Footer from './components/footer/footer';
+import Skill from './components/skills/skill';
+import Contact from './components/contact/contact';
+import Project from './components/projects/project';
 
 
-function webContent() {
+function WebContent() {
     return(
         <>
         <div className='bg-circle1'></div>
         <div className='bg circle2'></div>
+
+        <Header/>
+        <Nav/>
+        <Home/>
+        <About/>
+        <Footer/>
+        <Skill/>
+        <Contact/>
+        <Project/>
+    
+
         </>
-    )
+    );
 }
 
 
-export default webContent;
+export default WebContent;
 
 // import images from './images/IMG_3939.jpg';
 // import './App.css';

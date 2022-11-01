@@ -12,7 +12,7 @@ import Project from './components/projects/project';
 
 function WebContent() {
     return(
-        <>
+        <div className='App'>
         <div className='bg-circle1'></div>
         <div className='bg circle2'></div>
 
@@ -26,7 +26,7 @@ function WebContent() {
         <Project/>
     
 
-        </>
+        </div>
     );
 }
 

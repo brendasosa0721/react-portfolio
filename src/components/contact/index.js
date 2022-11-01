@@ -1,9 +1,8 @@
 // Creating the contact session//
 
 import './contact.css'
-import { AiOutlineLink } from 'react-icons/ai'
+import { AiOutlineLinkedin } from 'react-icons/ai'
 import { AiOutlineGithub } from 'react-icons/ai'
-import { AiOutlineInstagram } from 'react-icons/ai'
 
 
 function Contact(){
@@ -11,21 +10,23 @@ function Contact(){
       <div className="container contact-container">
         <h1>Contact me</h1>
         <div className="contact-links">
-          <a href="" className="contact-github">
+          <a
+            href="https://github.com/brendasosa0721"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-github"
+          >
             <AiOutlineGithub className="icon" />
             <h2>Github</h2>
           </a>
 
-          <a href="" className="contact-instagram">
-            <AiOutlineGithub className="icon" />
-            <h2>Instagram</h2>
-          </a>
-
-          <a href="" className="contact-linkdein">
-            <AiOutlineGithub className="icon" />
+          <a
+            href="https://www.linkedin.com/in/brenda-sosa-826103104/"
+            className="contact-linkdein"
+          >
+            <AiOutlineLinkedin className="icon" />
             <h2>LinkdeIn</h2>
           </a>
-
         </div>
       </div>
     );
@@ -33,3 +34,4 @@ function Contact(){
 }
 
 export default Contact;
+

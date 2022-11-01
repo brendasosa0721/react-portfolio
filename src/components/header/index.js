@@ -5,10 +5,10 @@ import './header.css';
 function Header() {
     return (
         <div id='home' className="container header-container">
-            <h3>
+            <h2>
                 <p> I <span>'m Brenda</span></p>
-                <h2> Front-End Web Developer</h2>
-            </h3>
+                <h3> FullStack Web Developer</h3>
+            </h2>
 
         </div>
     );

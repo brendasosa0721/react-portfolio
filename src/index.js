@@ -4,8 +4,6 @@ import './index.css';
 import WebContent from './App';
 
 
-// ReactDOM.render(<WebContent/>, document.getElementById('root'));
-
 ReactDOM.render(
   <React.StrictMode>
     <WebContent />

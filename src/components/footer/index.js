@@ -1,8 +1,6 @@
 // Creating the footer session*/
 
 import './footer.css'
-
-import { BsInstagram, BsMouse } from 'react-icons/bs';
 import { AiOutlineGithub } from 'react-icons/ai';
 import { AiOutlineLinkedin } from 'react-icons/ai';
 
@@ -12,15 +10,19 @@ function Footer() {
         <h1>Thank you for checking out my portfolio</h1>
 
         <div className="social-links">
-          <a href="">
-            <BsInstagram className="social" />
-          </a>
-
-          <a href="">
+          <a
+            href="https://github.com/brendasosa0721"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <AiOutlineGithub className="social" />
           </a>
 
-          <a href="">
+          <a
+            href="https://www.linkedin.com/in/brenda-sosa-826103104/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <AiOutlineLinkedin className="social" />
           </a>
         </div>

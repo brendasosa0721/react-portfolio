@@ -1,62 +1,31 @@
 
-import { faHome } from '@fortawesome/free-solid-svg-icons';
-import  Header from './components/header/header';
-import Nav from './components/nav/nav';
-import Home from './components/home/home';
-import About from './components/about/about';
-import Footer from './components/footer/footer';
-import Skill from './components/skills/skill';
-import Contact from './components/contact/contact';
-import Project from './components/projects/project';
+import Header from "./Components/Header";
+import Nav from "./Components/Nav";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Footer from "./Components/Footer";
+import Skill from "./Components/Skills";
+import Contact from "./Components/Contact";
+import Project from "./Components/Projects";
 
 
 function WebContent() {
-    return(
-        <div className='App'>
-        <div className='bg-circle1'></div>
-        <div className='bg circle2'></div>
+  return (
+    <div className="App">
+      <div className="bg-circle1"></div>
+      <div className="bg-circle2"></div>
 
-        <Header/>
-        <Nav/>
-        <Home/>
-        <About/>
-        <Footer/>
-        <Skill/>
-        <Contact/>
-        <Project/>
-    
-
-        </div>
-    );
+      <Header />
+      <Nav />
+      <Home />
+      <About />
+      <Skill />
+      <Project />
+      <Contact />
+      <Footer />
+    </div>
+  );
 }
-
 
 export default WebContent;
 
-// import images from './images/IMG_3939.jpg';
-// import './App.css';
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={images} className="App-logo" alt="logo" />
-//         <p>
-//           Hello <code>I'm Brenda</code> a Web Developer.
-//         </p>
-  
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;

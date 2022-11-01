@@ -1,7 +1,7 @@
 // Importing and building the about me session//
 
 import './about.css'
-import  Project from '../projects/project'
+// import  Project from '../projects/project'
 
 function About() {
     return(

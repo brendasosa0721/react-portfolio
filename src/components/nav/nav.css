@@ -8,10 +8,10 @@ transform: translate(-100%,-50%);
 background-color: rgb(129, 56, 115);
 padding: 15px 10px;
 display: flex;
-flex-direction: column;
+flex-direction: row;
 justify-content: center;
 align-items: center;
-gap: 23px;
+/* gap: 23px; */
 border-radius: 50px;
 opacity: 1;
 animation: fade-nav-in 1s ease 1 1s forwards;
@@ -25,30 +25,32 @@ animation: fade-nav-in 1s ease 1 1s forwards;
 
 .navigation a{
     position: relative;
-    background-color: antiquewhite;
+    background-color:greenyellow ;
     border-radius: 50%;
+    justify-content: space-between;
 }
 
 .icon{
-font-size: 60px;
+font-size: 70px;
 border-radius: 50%;
 padding: 10px;
 transition: fill .1s ease;
 fill: black;
+
 }
 
 
 .navigation  a .icon.active-nav{
     fill: red;
-    border: 2px solid blue;
+    border: 2px solid rgb(10, 10, 10);
 }
 
 .navigation .icon:hover{
-    fill: white;
+    fill: rgb(55, 23, 135);
     border: 2px solid black;
 }
 
 .navigation .icon.active-nav:hover{
-    fill: white;
+    fill: rgb(20, 11, 102);
     border: 2px solid black;
 }

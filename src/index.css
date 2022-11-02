@@ -12,7 +12,7 @@
 
 
 body {
-  background-color: rgb(14, 12, 12);
+  background-color: rgb(17, 93, 103);
   min-height: 100vh;
   font-family: sans-serif;
   animation: move 1s linear infinite forwards;
@@ -27,8 +27,8 @@ html{
 }
 
 :root{
---color-pri: rgb(60, 182, 62);
---color-pri-light: rgb(113, 135, 147);
+--color-pri: rgb(235, 181, 181);
+--color-pri-light: rgb(160, 107, 143);
 --color-sec: rgb(162, 162, 11);
 
 --pc-width:75%;
@@ -38,23 +38,23 @@ html{
 
 body::before {
   content: '';
-  position:fixed;
-  height: 200px;
-  width: 200px;
-  background:rgb(209, 70, 70);
+  position:absolute;
+  height: 300px;
+  width: 500px;
+  background:rgb(14, 112, 3);
   filter: blur(200px);
 }
 
 
 body::after{
   content: '';
-  position:fixed;
+  position:absolute;
   top: 200px;
   left: 250px;
-  height: 200px;
-  width: 200px;
-  background:rgb(161, 64, 80) (25, 92, 150);
-  filter: blur(140px);
+  height: 300px;
+  width: 500px;
+  background:rgb(224, 130, 146) (25, 92, 150);
+  filter: blur(250px);
 }
 
 .bg-circle1{
@@ -63,8 +63,8 @@ body::after{
   right: 0px;
   height: 200px;
   width: 200px;
-  background: lightblue;
-  filter: blur(140px);
+  background: rgb(102, 7, 28);
+  filter: blur(250px);
 }
 
 .bg-circle2{

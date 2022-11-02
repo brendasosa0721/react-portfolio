@@ -5,7 +5,7 @@ import{AiOutlineHome} from 'react-icons/ai'
 import{AiOutlineUser} from 'react-icons/ai'
 import {AiOutlineProject} from 'react-icons/ai'
 import{BiMessageRoundedDots} from 'react-icons/bi'
-import{BsArrowDownCircle} from 'react-icons/bs'
+import{TbHandClick} from 'react-icons/tb'
 
 // Creating the NavBar session//
 function Nav() {
@@ -37,27 +37,15 @@ return (
       <AiOutlineProject className="icon active-nav" onClick={iconFn} />
     </a>
 
-    <a href="#footer">
-      <BsArrowDownCircle className="icon active-nav" onClick={iconFn} />
+    <a href="https://docs.google.com/document/d/1MpUSUXxuIyGfgtZbpxp4sNZTQfiPPP2xixU55urByfw/edit?usp=sharing"
+        target="_blank">
+      <TbHandClick  className="icon active-nav" onClick={iconFn} />
     </a>
   </div>
 );
 
 }
 
-// I am creating a hidden function//
-// let Icons = document.querySelectorAll('.navigation .icon');
-// Icons.forEach((icon) => {
-//     icon.addEventListener ('click', () => {
-//         changeactive();
-//         icon.classList.add('active-nav');
-//     });
-// });
 
-// function changeactive(){
-//     Icons.forEach(icon => {
-//         icon.classList.remove('active-nav');
-//     });
-// }
 
 export default Nav;

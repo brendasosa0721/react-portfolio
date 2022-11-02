@@ -36,7 +36,7 @@ function Home() {
         <span>About Me</span>
         <br />
         <p>
-          I team player,do very well under pressure and love building new
+          I'm a team player,do very well under pressure and love building new
           projects. I became a web developer because I was passionate about the
           tech industry and I wanted to be part of the future. I transitioned
           from the medical field and it has been the best decision. I worked in

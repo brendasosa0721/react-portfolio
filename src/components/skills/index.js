@@ -5,10 +5,10 @@ import "./skill.css";
 const Skill = () => {
   return (
     <div>
-      <h2>
+      <h1>
         {" "}
         <span className="skill">Skills</span>
-      </h2>
+      </h1>
       <div className="skill-container">
         <div className="skills">
           <div className="content-html"></div>
@@ -22,37 +22,27 @@ const Skill = () => {
 
         <div className="skills">
           <div className="content-javascript"></div>
-          <h1>javascript</h1>
+          <h1>Javascript</h1>
         </div>
 
         <div className="skills">
           <div className="content-react"></div>
-          <h1>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
-            obcaecati illum doloremque! Quasi recusandae similique illo
-            cupiditate accusantium, quibusdam molestiae aut harum ab incidunt
-            impedit corrupti nulla aliquam reprehenderit reiciendis?
-          </h1>
+          <h1>React.js </h1>
         </div>
 
         <div className="skills">
           <div className="content-node.js"></div>
-          <h1>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
-            obcaecati illum doloremque! Quasi recusandae similique illo
-            cupiditate accusantium, quibusdam molestiae aut harum ab incidunt
-            impedit corrupti nulla aliquam reprehenderit reiciendis?
-          </h1>
+          <h1>Node.js</h1>
         </div>
 
         <div className="skills">
           <div className="content-nosql"></div>
-          <h1>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
-            obcaecati illum doloremque! Quasi recusandae similique illo
-            cupiditate accusantium, quibusdam molestiae aut harum ab incidunt
-            impedit corrupti nulla aliquam reprehenderit reiciendis?
-          </h1>
+          <h1>NoSQL</h1>
+        </div>
+
+        <div className="skills">
+          <div className="content-mongodb"></div>
+          <h1>MongoDB</h1>
         </div>
       </div>
     </div>

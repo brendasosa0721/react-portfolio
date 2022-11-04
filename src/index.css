@@ -18,6 +18,10 @@ body {
   animation: move 1s linear infinite forwards;
 }
 
+body:hover{
+  cursor: pointer;
+  background-color: black;
+}
 html{
  scroll-behavior: smooth;
 }
@@ -27,9 +31,9 @@ html{
 }
 
 :root{
---color-pri: rgb(235, 181, 181);
---color-pri-light: rgb(160, 107, 143);
---color-sec: rgb(162, 162, 11);
+/* --color-pri: rgb(235, 181, 181);
+--color-pri-light: rgb(233, 223, 230);
+--color-sec: rgb(162, 162, 11); */
 
 --pc-width:75%;
 --tab-width:90%;

@@ -34,9 +34,10 @@ padding-left: 25px;
 
 
 .skill-container .skills:hover{
-    background-color: rgb(181, 148, 31);
+    background-color: rgb(187, 217, 97);
     cursor: pointer;
     transition: 2s ease-in-out;
+   
 
 }
 /* .skill-container .skills .container{

@@ -11,16 +11,23 @@
   padding: 100px;
   border-radius: 25px;
   width: 1000px;
-  background-color: white;
+  background-color: transparent;
+}
+
+.contact-container:hover{
+  transition: 2s ease-in-out;
+  background-color: rgb(228, 218, 206);
+  cursor: pointer;
+  
 }
 
 .contact-container h1 {
   margin: 0 auto;
   font-size: 30px;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid rgb(50, 5, 39);
   font-family: sans-serif;
   font-weight: bold;
-  color: var(--color-pri);
+  color: rgb(225, 30, 30);
 }
 
 .contact-container .contact-links {
@@ -30,6 +37,7 @@
   align-items: center;
   width: 100%;
   margin-top: 40px;
+  
 }
 
 /* .contact-container .contact{
@@ -70,6 +78,7 @@
 
 .form {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   position: relative;
@@ -79,11 +88,35 @@
   
 }
 
+
 .form input {
   padding: 5px;
   border-radius: 10px;
+  position: relative;
   height: 40px;
-  width: 250px;
+  width: 300px;
   background-color: lightgray;
-  border: transparent;
+  border:transparent;
+  margin-bottom: 25px;
+  font-size: 20px;
+  color: black;
+}
+
+.form label{
+  color: rgb(52, 9, 9);
+  padding-right: 200px;
+  margin-bottom: 15px;
+  
+}
+
+.form .message{
+  height: 200px;
+  
+}
+
+.btn-contact{
+  padding: 5px;
+  color: black;
+  border-radius: 10px;
+ 
 }

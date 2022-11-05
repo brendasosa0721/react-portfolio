@@ -3,40 +3,29 @@
 import "./contact.css";
 // import { AiOutlineLinkedin } from "react-icons/ai";
 // import { AiOutlineGithub } from "react-icons/ai";
+import React,{useState} from 'react';
+
 
 function Contact() {
+ const [nameState, nameSetState] = useState('');
+ const [emailState, emailSetState] = useState('');
+ const [messageState, messageSeState] = useState('')
+  
   return (
     <div className="container contact-container">
       <h1>Contact Me</h1>
       <div className="contact-links">
-
-
-        <form className="form">
-
-          <label className="label">Name</label>
-          <input type='text'/>
-          <label>Email</label>
-          <input type='text'/>
-          <label>Message</label>
-          <input type='text'/>
+        <form className="form" action="mailto:brenda.sosa@gmail.com" type='text/plain'>
+          
+            <label className="label">Name</label>
+            <input type="text" value={nameState} onChange={e => nameSetState(e.target.value)}/>
+            <label>Email</label>
+            <input type="text" value={emailState} onChange={e => emailSetState(e.target.value)} />
+            <label>Message</label>
+            <input className="message" type="text" value={messageState} onChange={e => messageSeState(e.target.value)}/>
+          <button className="btn-contact">Send </button>
         </form>
-        {/* <a
-            href="https://github.com/brendasosa0721"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contact-github"
-          >
-            <AiOutlineGithub className="icon" />
-            <h2>Github</h2>
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/brenda-sosa-826103104/"
-            className="contact-linkdein"
-          >
-            <AiOutlineLinkedin className="icon" />
-            <h2>LinkdeIn</h2>
-          </a> */}
+        
       </div>
     </div>
   );

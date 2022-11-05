@@ -7,7 +7,7 @@ import { AiOutlineLinkedin } from 'react-icons/ai';
 function Footer() {
     return (
       <div id="footer" className="container footer-container">
-        <h1>Thank you for checking out my portfolio</h1>
+        <h2>For more information, please visit my social media below</h2>
 
         <div className="social-links">
           <a

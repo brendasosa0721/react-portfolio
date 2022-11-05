@@ -27,7 +27,7 @@ function Home() {
 
       <a href="#footer" className="scroll-down">
         <hr />
-        <h5>Scroll down</h5>
+        <h5>Find Out More</h5>
         <BsMouse className="scroll" />
         <hr />
       </a>

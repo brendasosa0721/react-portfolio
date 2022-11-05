@@ -8,40 +8,20 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding: 0px;
-    /* min-height: 30vh;
-    margin-top: 80px; */
-    /* margin-bottom: 80px; */
+     
 
 }
 
-.footer-container h1{
+.footer-container h2{
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0 auto;
     text-align: center;
     text-transform: capitalize;
     
 }
 
-/* .footer-container h2{
-    font-family: sans-serif;
-    font-weight: 100;
-    font-size: 20px;
-    margin-top: 20px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-.footer-container h2:hover{
-    background-color: white;
-} */
 
 .social-links{
     padding: 2px;
@@ -57,7 +37,7 @@
     height: 75px;
     width: 100px;
     background-color:transparent;
-    /* margin: 0 5px; */
+    margin: 0 5px;
     padding: 2px;
     backdrop-filter: blur;
     cursor: pointer;

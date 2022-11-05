@@ -8,10 +8,10 @@ function Buttons() {
 
       <a
         href="mailto:brenda.sosa@gmail.com"
-        target="_blank"
+        target="_blank" rel="noreferrer"
         className="btn pri"
       >
-        Contact me
+        Let's Work Together!
       </a>
     </div>
   );

@@ -1,36 +1,38 @@
 /*Contact Styling*/
 
-.contact-container{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    min-height: 80vh;
-    margin-top: 500px;
-    padding: 100px;
+.contact-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 80vh;
+  margin-top: 500px;
+  padding: 100px;
+  border-radius: 25px;
+  width: 1000px;
+  background-color: white;
 }
 
-.contact-container h1{
-    margin: 0 auto;
-    font-size: 30px;
-    border-bottom: 2px solid red;
-    font-family: sans-serif;
-    font-weight: bold;
-    color: var(--color-pri);
+.contact-container h1 {
+  margin: 0 auto;
+  font-size: 30px;
+  border-bottom: 2px solid red;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: var(--color-pri);
 }
 
-.contact-container .contact-links{
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    margin-top: 40px;
-    border-color: red;
+.contact-container .contact-links {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
 }
 
-.contact-container .contact{
+/* .contact-container .contact{
     position: inherit;
     height: 280px;
     width: 30%;
@@ -41,30 +43,47 @@
     justify-content: center;
     align-items: center;
     transition: .3s ease, transform .2s ease;
-}
+} */
 
-.contact-container .contact:hover{
+/* .contact-container .contact:hover{
 
     background: white;
     transform: scale(1.1);
-}
+} */
 
-.contact-container .contact .icon{
+/* .contact-container .contact .icon{
     position: relative;
     font-size: 130px;
+} */
+
+.contact-container .contact h2 {
+  position: relative;
+  margin-top: 15px;
+  font-size: 21px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  text-align: center;
 }
 
-.contact-container .contact h2{
-
-    position: relative;
-    margin-top: 15px;
-    font-size: 21px;
-    font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    text-transform: capitalize;
-    font-family: sans-serif;
-    text-align: center;
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  justify-content: space-evenly;
+  font-size: 25px;
+  
 }
 
-
+.form input {
+  padding: 5px;
+  border-radius: 10px;
+  height: 40px;
+  width: 250px;
+  background-color: lightgray;
+  border: transparent;
+}

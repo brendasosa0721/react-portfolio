@@ -2,6 +2,7 @@
 
 import "./project.css";
 
+
 const Project = () => {
   return (
     <div className="proj-ect">
@@ -23,6 +24,7 @@ const Project = () => {
             <strong>Link: </strong>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/brendasosa0721/e-commerce-backend"
             >
               Learn More{" "}
@@ -32,29 +34,30 @@ const Project = () => {
             database Sequelize.
           </p>
         </div>
-
-        <div className="project">
-          <h1 className="proj1">Note Taker</h1>
-          <br />
-          <p>
-            Note Taker deployed on Heroku which will allow the clients to write
-            notes, delete and save them.
-          </p>
-          <br />
-          <p>
-            <strong>Link: </strong>
-            <a
-              target="_blank"
-              href="https://polar-reaches-23538.herokuapp.com/"
-            >
-              Learn More{" "}
-            </a>
+        
+          <div className="project">
+            <h1 className="proj1">Note Taker</h1>
             <br />
-            <strong>Programs used:</strong> Express.js, Node.js, CSS,
-            JavaScript, HTML.
-          </p>
-        </div>
-
+            <p>
+              Note Taker deployed on Heroku which will allow the clients to
+              write notes, delete and save them.
+            </p>
+            <br />
+            <p>
+              <strong>Link: </strong>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://polar-reaches-23538.herokuapp.com/"
+              >
+                Learn More{" "}
+              </a>
+              <br />
+              <strong>Programs used:</strong> Express.js, Node.js, CSS,
+              JavaScript, HTML.
+            </p>
+          </div>
+       
         <div className="project">
           <h1 className="proj1">Password Generator</h1>
           <br />
@@ -68,6 +71,7 @@ const Project = () => {
             <strong>Link: </strong>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://brendasosa0721.github.io/password-generator/"
             >
               Learn More{" "}
@@ -76,7 +80,6 @@ const Project = () => {
             <strong>Programs used:</strong> CSS, JavaScript, HTML.
           </p>
         </div>
-
         <div className="project">
           <h1 className="proj1">Team Profile Generator</h1>
           <br />
@@ -89,6 +92,7 @@ const Project = () => {
             <strong>Link: </strong>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/brendasosa0721/team-profile-generator"
             >
               Learn More{" "}
@@ -97,8 +101,6 @@ const Project = () => {
             <strong>Programs used:</strong> CSS, JavaScript, HTML, Node.js.
           </p>
         </div>
-
-       
       </div>
     </div>
   );

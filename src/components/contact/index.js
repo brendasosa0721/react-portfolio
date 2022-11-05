@@ -1,16 +1,26 @@
 // Creating the contact session//
 
-import './contact.css'
-import { AiOutlineLinkedin } from 'react-icons/ai'
-import { AiOutlineGithub } from 'react-icons/ai'
+import "./contact.css";
+// import { AiOutlineLinkedin } from "react-icons/ai";
+// import { AiOutlineGithub } from "react-icons/ai";
+
+function Contact() {
+  return (
+    <div className="container contact-container">
+      <h1>Contact Me</h1>
+      <div className="contact-links">
 
 
-function Contact(){
-    return (
-      <div className="container contact-container">
-        <h1>Contact me</h1>
-        <div className="contact-links">
-          <a
+        <form className="form">
+
+          <label className="label">Name</label>
+          <input type='text'/>
+          <label>Email</label>
+          <input type='text'/>
+          <label>Message</label>
+          <input type='text'/>
+        </form>
+        {/* <a
             href="https://github.com/brendasosa0721"
             target="_blank"
             rel="noopener noreferrer"
@@ -26,12 +36,10 @@ function Contact(){
           >
             <AiOutlineLinkedin className="icon" />
             <h2>LinkdeIn</h2>
-          </a>
-        </div>
+          </a> */}
       </div>
-    );
-        
+    </div>
+  );
 }
 
 export default Contact;
-

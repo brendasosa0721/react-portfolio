@@ -3,7 +3,7 @@
 
 ## Purpose
 
-Portfolio created with React.js. I will be 
+Portfolio created with React.js. It was exciting bulding this website. I was able to discover the wonders of react.js and definetly I will be making changes in the near future.
 
 
 ## Links & Screenshot

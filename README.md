@@ -3,9 +3,32 @@
 
 ## Purpose
 
-Portfolio created with React.js. It is a more dynamic
+Portfolio created with React.js. I will be 
 
 
+## Links & Screenshot
+
+Link :
+
+![Screen Shot 2022-11-05 at 4 57 09 PM](https://user-images.githubusercontent.com/106204413/200148284-64d851e3-5ba5-4324-91db-3252ca17c0af.png)
+
+
+## Programs Used 
+
+1.  React.js
+2. JavaScript
+3. JSX
+4. CSS
+
+
+## Created by
+Brenda Sosa
+
+Email: brenda.sosa@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/brenda-sosa-826103104/
+
+## Please see below for more information regarding React!
 
 
 

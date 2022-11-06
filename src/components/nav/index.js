@@ -38,7 +38,7 @@ return (
     </a>
 
     <a href="https://docs.google.com/document/d/1MpUSUXxuIyGfgtZbpxp4sNZTQfiPPP2xixU55urByfw/edit?usp=sharing"
-        target="_blank">
+        target="_blank" rel='noreferrer'>
       <TbHandClick  className="icon active-nav" onClick={iconFn} />
     </a>
   </div>

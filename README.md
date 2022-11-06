@@ -8,7 +8,7 @@ Portfolio created with React.js. It was exciting bulding this website. I was abl
 
 ## Links & Screenshot
 
-Link :
+Link : https://brendasosa0721.github.io/react-portfolio/
 
 ![Screen Shot 2022-11-05 at 4 57 09 PM](https://user-images.githubusercontent.com/106204413/200148284-64d851e3-5ba5-4324-91db-3252ca17c0af.png)
 

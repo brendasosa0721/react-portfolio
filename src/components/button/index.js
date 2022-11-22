@@ -11,7 +11,7 @@ function Buttons() {
         target="_blank" rel="noreferrer"
         className="btn pri"
       >
-        Let's Work Together!
+        Let's connect!
       </a>
     </div>
 

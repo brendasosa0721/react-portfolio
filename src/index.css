@@ -12,16 +12,16 @@
 
 
 body {
-  background-color: rgb(17, 93, 103);
+  background-color: rgb(45, 3, 78);
   min-height: 100vh;
   font-family: sans-serif;
   animation: move 1s linear infinite forwards;
 }
 
-body:hover{
+/* body:hover{
   cursor: pointer;
   background-color: black;
-}
+} */
 html{
  scroll-behavior: smooth;
 }
@@ -45,7 +45,7 @@ body::before {
   position:absolute;
   height: 300px;
   width: 500px;
-  background:rgb(14, 112, 3);
+  background:rgb(232, 19, 211);
   filter: blur(200px);
 }
 
@@ -57,7 +57,7 @@ body::after{
   left: 250px;
   height: 300px;
   width: 500px;
-  background:rgb(224, 130, 146) (25, 92, 150);
+  background:rgb(186, 185, 218) (25, 92, 150);
   filter: blur(250px);
 }
 
@@ -67,7 +67,7 @@ body::after{
   right: 0px;
   height: 200px;
   width: 200px;
-  background: rgb(102, 7, 28);
+  background: rgb(225, 214, 216);
   filter: blur(250px);
 }
 
@@ -88,11 +88,4 @@ body::after{
   align-items: center;
 }
 
-/*Query Media*/
-
-@media (max-width: 500px){
-  .container{
-    width: var(--phone-widht);
-  }
-}
 

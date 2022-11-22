@@ -1,56 +1,60 @@
 /* styling for the navbar*/
 
-.navigation{
-position: absolute;
-left: 10%;
-top: 10%;
-transform: translate(-100%,-50%);
-background-color: rgb(129, 56, 115);
-padding: 15px 10px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-/* gap: 23px; */
-border-radius: 50px;
-opacity: 1;
-animation: fade-nav-in 1s ease 1 1s forwards;
+.navigation {
+  position: absolute;
+  left: 8%;
+  top: -140px;
+  transform: translate(-100%, -50%);
+  background-color: rgb(80, 75, 224);
+  padding: 5px;
+  display: flex;
+  height: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  border-radius: 25px;
+  opacity: 1;
+  animation: fade-nav-in 1s ease 1 1s forwards;
 }
 
-@keyframes fade-nav-in{
-    to{
-        transform: translate(0%, 50%);
-    }
+@keyframes fade-nav-in {
+  to {
+    transform: translate(0%, 50%);
+  }
 }
 
-.navigation a{
-    position: relative;
-    background-color:greenyellow ;
-    border-radius: 50%;
-    justify-content: space-between;
+.navigation a {
+  position: relative;
+  background-color: greenyellow;
+  border-radius: 20px;
+  height: 100px;
+  justify-content: space-between;
 }
 
-.icon{
-font-size: 70px;
-border-radius: 50%;
-padding: 10px;
-transition: fill .1s ease;
-fill: black;
-
+.icon {
+  font-size: 70px;
+  border-radius: 20px;
+  padding: 10px;
+  transition: fill 0.1s ease;
+  fill: black;
+  height: 100px;
 }
 
-
-.navigation  a .icon.active-nav{
-    fill: red;
-    border: 2px solid rgb(10, 10, 10);
+.navigation a .icon.active-nav {
+  fill: red;
+  border: 2px solid rgb(10, 10, 10);
 }
 
-.navigation .icon:hover{
-    fill: rgb(55, 23, 135);
-    border: 2px solid black;
+.icon-text {
+  color: white;
 }
+/* .navigation .icon:hover {
+  fill: rgb(55, 23, 135);
+  border: 2px solid black;
+} */
 
-.navigation .icon.active-nav:hover{
-    fill: rgb(20, 11, 102);
-    border: 2px solid black;
-}
+/* .navigation .icon.active-nav:hover {
+  fill: rgb(20, 11, 102);
+  border: 2px solid black;
+} */

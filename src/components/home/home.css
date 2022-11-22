@@ -64,7 +64,6 @@ opacity: 1;
 }
 
 .home-container .logo .main-img.active .circle:nth-child(1){
-    background: image('IMG_3939.jpg');
     background-size: cover;
     position:absolute;
     background-position: center;
@@ -199,3 +198,4 @@ font-family: sans-serif;
     transform: rotate(-90deg);
    font-size: 100;
 }
+

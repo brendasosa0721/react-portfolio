@@ -1,44 +1,36 @@
 /*Styling Skill session*/
 
-.skill-container{
-position: absolute;
-display: flex;
-justify-content: flex-start;
-align-items: flex-start;
-height: 100%;
-width: 100%;
-overflow-x:scroll;
-overflow-y: hidden;
-margin-top: 15px;
-user-select: none;
-padding-left: 25px;
-
-
+.skill-container {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-top: 15px;
+  user-select: none;
+  padding-left: 25px;
 }
 
-.skill-container .skills{
-    position: relative;
-    height: 100px;
-    min-width: 30%;
-    background: rgb(129, 117, 117);
-    border-radius: 20px;
-    margin: 0 20px 0 0;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content:center;
-    
-    
-
+.skill-container .skills {
+  position: relative;
+  height: 100px;
+  min-width: 30%;
+  background: rgb(129, 117, 117);
+  border-radius: 20px;
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.skill-container .skills:hover{
-    background-color: rgb(187, 217, 97);
-    cursor: pointer;
-    transition: 2s ease-in-out;
-   
-
+.skill-container .skills:hover {
+  background-color: rgb(187, 217, 97);
+  cursor: pointer;
+  transition: 2s ease-in-out;
 }
 /* .skill-container .skills .container{
     height: 85%;
@@ -51,23 +43,18 @@ padding-left: 25px;
 
 /* } */
 
-.skill-container .skills h1{
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-top: 20px;
-    padding-left: 25px;
-    margin-left: 25px;
+.skill-container .skills h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding-left: 25px;
+  margin-left: 25px;
 }
 
-
-.skill{
-    margin-left: 25px;
+.skill {
+  margin-left: 25px;
 }
 
-#Skil{
-    font-size: 35px;
+#Skil {
+  font-size: 35px;
 }
-
-
-
-

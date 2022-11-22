@@ -7,7 +7,6 @@
   margin-top: 80px;
   width: 60%;
   padding: 0px;
-  
 }
 
 .button-container .btn {
@@ -16,23 +15,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(182, 40, 94);
-  text-shadow: 2px 2px 4px #ad7575;
+  color: rgb(244, 228, 234);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-transform: capitalize;
-  background-color: rgb(213, 190, 210);
+  background-color: rgb(160, 91, 168);
   border-radius: 20px;
   height: 100px;
-  width: 200px;
+  width: 400px;
   text-align: center;
-
 }
- .button-container .btn:hover {
- background-color: transparent;
- color: purple;
- transform: 0.4s ease;
- border: 2px solid black;
- border-width: 2px;
-}  
-
+.button-container .btn:hover {
+  background-color: white;
+  color: rgb(17, 1, 17);
+  transform: 0.4s ease;
+  border: 10px solid rgb(223, 134, 227);
+  border-width: 2px;
+}

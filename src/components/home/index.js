@@ -12,15 +12,15 @@ function Home() {
   return (
     <div id="home" className="container home-container">
       <div className="logo">
-        <div className="main-img" onClick={toggle}>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
-          <span className="circle"></span>
+        <div className="main-img" onMouseEnter={toggle}>
+          <span className="circle">HTML</span>
+          <span className="circle">CSS</span>
+          <span className="circle">React.js</span>
+          <span className="circle">NoSQL</span>
+          <span className="circle">Express.js</span>
+          <span className="circle">MongoDB</span>
+          <span className="circle">SQL</span>
+          <span className="circle">JavaScript</span>
         </div>
         <img src={img} alt=""></img>
       </div>
@@ -31,8 +31,8 @@ function Home() {
         <BsMouse className="scroll" />
         <hr />
       </a>
-
-      <h2>
+  
+       <h2>
         <span>About Me</span>
         <br />
         <p>
@@ -45,7 +45,7 @@ function Home() {
           community. I am ready to learn and eager to keep expanding my
           knowledge.
         </p>
-      </h2>
+      </h2> 
       <br />
       <Buttons />
     </div>

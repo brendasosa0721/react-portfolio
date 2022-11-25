@@ -1,6 +1,6 @@
-/*Styling Skill session*/
+/* Styling Skill session*/
 
-.skill-container {
+ .skill-container {
   position: absolute;
   display: flex;
   justify-content: flex-start;
@@ -32,16 +32,6 @@
   cursor: pointer;
   transition: 2s ease-in-out;
 }
-/* .skill-container .skills .container{
-    height: 85%;
-    width: 90%;
-    border-radius: 15px;
-    margin-top: 50px;
-    background-size: contain;
-    background-position: center;
-     */
-
-/* } */
 
 .skill-container .skills h1 {
   font-size: 20px;
@@ -57,4 +47,4 @@
 
 #Skil {
   font-size: 35px;
-}
+} 

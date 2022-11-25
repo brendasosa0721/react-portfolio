@@ -6,10 +6,11 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 10px;
+  padding: 35px;
   background-color: rgb(194, 114, 214);
   width: auto;
-  border-radius: 20px;
+  height: 250px;
+  top: -4px;
 }
 
 .footer-container h2 {
@@ -19,7 +20,7 @@
   margin: auto;
   text-align: center;
   text-transform: capitalize;
-  padding-top: 35px;
+  padding-top: 20px;
 }
 
 .social-links {

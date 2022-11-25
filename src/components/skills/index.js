@@ -2,12 +2,15 @@
 
 import "./skill.css";
 
+
 const Skill = () => {
   return (
     <div>
       <h1>
         {" "}
-        <span  id="Skil"  className="skill">Skills</span>
+        <span id="Skil" className="skill">
+          Skills
+        </span>
       </h1>
       <div className="skill-container">
         <div className="skills">
@@ -27,23 +30,10 @@ const Skill = () => {
 
         <div className="skills">
           <div className="content-react"></div>
-          <h1>React.js </h1>
+          <h1>React</h1>
         </div>
 
-        <div className="skills">
-          <div className="content-node.js"></div>
-          <h1>Node.js</h1>
-        </div>
-
-        <div className="skills">
-          <div className="content-nosql"></div>
-          <h1>NoSQL</h1>
-        </div>
-
-        <div className="skills">
-          <div className="content-mongodb"></div>
-          <h1>MongoDB</h1>
-        </div>
+       
       </div>
     </div>
   );

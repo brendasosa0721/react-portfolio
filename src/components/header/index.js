@@ -5,13 +5,16 @@ import './header.css';
 function Header() {
     return (
       <div id="home" className="container header-container">
-        <h2>
+        <div>
           <p className="waviy">
             {" "}
-            I'm <span>Brenda</span>
+            <h2>
+              {" "}
+              Hello!, I'm <span>Brenda</span>{" "}
+            </h2>
           </p>
           <h3> FullStack Web Developer</h3>
-        </h2>
+        </div>
       </div>
     );
 }

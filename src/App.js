@@ -4,9 +4,9 @@ import Nav from "./Components/Nav";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
-import Skill from "./Components/Skills";
+import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
-import Project from "./Components/Projects";
+import  { Projects } from "./Components/Projects";
 
 
 function WebContent() {
@@ -19,8 +19,8 @@ function WebContent() {
       <Nav />
       <Home />
       <About />
-      <Skill />
-      <Project />
+      <Skills/>
+      <Projects />
       <Contact />
       <Footer />
     </div>

@@ -1,7 +1,7 @@
 //Creating the home container//
 
 import "./home.css";
-import img from "../images/IMG_4900.jpg";
+import img from "../../assets/images/IMG_4900.jpg";
 import Buttons from "../Button";
 import { BsMouse } from "react-icons/bs";
 

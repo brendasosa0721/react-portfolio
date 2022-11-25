@@ -19,6 +19,13 @@ Link : https://brendasosa0721.github.io/react-portfolio/
 2. JavaScript
 3. JSX
 4. CSS
+5. React-BootStrap
+6. Node.js
+7. Jquery
+8. React on screen
+9. Animate.css
+10. Web-Vitals
+11. Yarn 
 
 
 ## Created by

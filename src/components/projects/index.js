@@ -1,109 +1,82 @@
 // Building the project session//
 
 import "./project.css";
+import { Container, Row, Col, Tab } from "react-bootstrap";
+import { ProjectCard } from "./ProjectCard";
+import projImg1 from "../../assets/images/AIDream.png";
+import projImg2 from "../../assets/images/employertracker.png";
+import projImg3 from "../../assets/images/notetaker.png";
+import projImg4 from "../../assets/images/teamgenerator.png";
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
-
-const Project = () => {
+export const Projects = () => {
+  const projects = [
+    {
+      title: "AI Dream",
+      description:
+        "An AI-powered creative design platform, which allows users to create original graphics , logos, product concept images, art and realistic images. Graphic design is so important for the success of a business. Creating marketing materials can be a process and can take anywhere from 4 to 6 weeks to even months, to complete.",
+      imgUrl: projImg1,
+      
+    
+    },
+    {
+      title: "Employer Tracker",
+      description:
+        "This is a command-line application created to get track of employees information such as salary, name, departments, and roles ID.",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Note Taker",
+      description:
+        "Note Taker deployed on Heroku which will allow the client to write notes, delete and save them.",
+      imgUrl: projImg3,
+    },
+    {
+      title: "Team Generator",
+      description:
+        "This can be used to generate team profile through the terminal and translate to the browser.",
+      imgUrl: projImg4,
+    },
+  ];
+  console.log(Projects);
   return (
-    <div className="proj-ect">
-      <h1>
-        <span>My Projects</span>
-      </h1>
-      <div className="project-container">
-        <div className="project">
-          <h1 className="proj1">e-commerce-backend</h1>
-          <br />
-          <p>
-            This application is working in the back-end of an e-commerce site.
-            It is only focus in the back-end no front-end. I used the programs
-            mentioned above for the built of this database application. I have
-            attached a walkthrough video.
-          </p>
-          <br />
-          <p>
-            <strong>Link: </strong>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/brendasosa0721/e-commerce-backend"
-            >
-              Learn More{" "}
-            </a>
-            <br />
-            <strong>Programs used:</strong> Express.js, Node.js, Jest, MySQL
-            database Sequelize.
-          </p>
-        </div>
-        
-          <div className="project">
-            <h1 className="proj1">Note Taker</h1>
-            <br />
-            <p>
-              Note Taker deployed on Heroku which will allow the clients to
-              write notes, delete and save them.
-            </p>
-            <br />
-            <p>
-              <strong>Link: </strong>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://polar-reaches-23538.herokuapp.com/"
-              >
-                Learn More{" "}
-              </a>
-              <br />
-              <strong>Programs used:</strong> Express.js, Node.js, CSS,
-              JavaScript, HTML.
-            </p>
-          </div>
-       
-        <div className="project">
-          <h1 className="proj1">Password Generator</h1>
-          <br />
-          <p>
-            I worked on making this website functional. When clicking password
-            generate a series of questions will come up and based on your
-            selection a random password will be created.
-          </p>
-          <br />
-          <p>
-            <strong>Link: </strong>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://brendasosa0721.github.io/password-generator/"
-            >
-              Learn More{" "}
-            </a>
-            <br />
-            <strong>Programs used:</strong> CSS, JavaScript, HTML.
-          </p>
-        </div>
-        <div className="project">
-          <h1 className="proj1">Team Profile Generator</h1>
-          <br />
-          <p>
-            This can be used to generate team profile through the terminal and
-            translate to the browser.
-          </p>
-          <br />
-          <p>
-            <strong>Link: </strong>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/brendasosa0721/team-profile-generator"
-            >
-              Learn More{" "}
-            </a>
-            <br />
-            <strong>Programs used:</strong> CSS, JavaScript, HTML, Node.js.
-          </p>
-        </div>
-      </div>
-    </div>
+    <section className="project" id="project">
+      <Container>
+        <Row>
+          <Col size={12}>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__fadeIn" : ""
+                  }
+                >
+                  <h2>Projects</h2>
+                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                    <Tab.Content
+                      id="slideInUp"
+                      className={
+                        isVisible ? "animate__animated animate__slideInUp" : ""
+                      }
+                    >
+                      <Tab.Pane eventKey="first">
+                        <Row>
+                          {projects.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
+                      </Tab.Pane>
+                     
+                    </Tab.Content>
+                  </Tab.Container>
+                </div>
+              )}
+            </TrackVisibility>
+          </Col>
+        </Row>
+      </Container>
+    </section>
   );
 };
 
-export default Project;
